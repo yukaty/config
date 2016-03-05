@@ -1,4 +1,4 @@
-export PS1='\[\033[40;1;36m\][\t \w]$\[\033[40;1;37m\] '
+export PS1='\[\e[35;40m\]\t[\h@\w]$\[\e[0m\] '
 
 alias ll='ls -laF'
 alias lt='ls -laFtr'
