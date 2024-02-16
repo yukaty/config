@@ -1,4 +1,4 @@
-export PROMPT='%*[%c]$ '
+export PROMPT='%F{magenta}%*%F{cyan}[%~]$%f '   
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # alias
@@ -14,6 +14,3 @@ setopt hist_ignore_all_dups
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-# Angular CLI autocompletion
-source <(ng completion script)
