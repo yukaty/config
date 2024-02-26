@@ -3,6 +3,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # alias
 alias ll='ls -laF'
+alias python=/opt/homebrew/bin/python3
 
 # share history between terminals``
 setopt share_history
