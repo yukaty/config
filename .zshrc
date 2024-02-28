@@ -4,6 +4,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # alias
 alias ll='ls -laF'
+alias la='ls -aF'
 
 # share history between terminals``
 setopt share_history
